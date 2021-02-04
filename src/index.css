@@ -1,13 +1,74 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Quicksand";
+  text-decoration: none;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.HomePage {
+  font-family: "Quicksand";
+  background-color: #18191a;
+  height: 100vh;
+  padding: 10%;
+  color: #e4e6eb;
+  padding-left: 15%;
+  padding-right: 15%;
+  line-height: 25px;
+}
+
+.GifHome {
+  width: 100%;
+  height: 0;
+  padding-bottom: 100%;
+  position: relative;
+}
+
+.GifFrame {
+    position:absolute;
+    width:100%;
+    height:100%;
+}
+.HomeHeader {
+  padding-bottom: 10%;
+}
+
+.Projects {
+  font-family: "Quicksand";
+  background-color: #18191a;
+  height: 100vh;
+  padding: 5%;
+  color: #e4e6eb;
+}
+
+.About {
+  font-family: "Quicksand";
+  background-color: #18191a;
+  height: 100vh;
+  padding: 5%;
+  color: #e4e6eb;
+}
+
+.Contact {
+  font-family: "Quicksand";
+  background-color: #18191a;
+  height: 100vh;
+  padding: 5%;
+  color: #e4e6eb;
+}
+
+.List {
+  padding-left: 10%;
+  line-height: 30px;
+}
+
+.GlobalText {
+  color: #e4e6eb;
+  background-color: #18191a;
+  height: 100vh;
+}
+
+.MenuFont {
+  color: #e4e6eb;
+  text-decoration: none;
 }
