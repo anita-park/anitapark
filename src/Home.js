@@ -1,7 +1,7 @@
 import pic from "./profile.jpg"
 const HomePage = () => {
   return (
-    <div className="HomePage">
+    <div className="Page">
       <h2 className="h2">Home</h2>
       <br/>
       <img src={pic} alt="Anita Park" className="Me"/>

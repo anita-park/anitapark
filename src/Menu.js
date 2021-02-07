@@ -50,11 +50,13 @@ const Menu = () => {
       list-style: none;
       color: white;
       text-decoration: none;
+
     `,
     Item: styled.li`
       padding: 0 1rem;
       cursor: pointer;
       text-decoration: none;
+
     `,
   };
 
@@ -73,6 +75,7 @@ const Menu = () => {
 
       justify-content: space-around;
       text-decoration: none;
+
     `,
     Item: styled(Navbar.Item)`
       display: flex;
@@ -82,7 +85,8 @@ const Menu = () => {
       font-size: 1.2rem;
       text-decoration: none;
     `,
-    Icon: styled.span``,
+    Icon: styled.span`
+    `,
   };
 
   const CSSReset = createGlobalStyle`
@@ -106,7 +110,7 @@ const Menu = () => {
       }
     `;
   return (
-    <Styles.Wrapper>
+    <Styles.Wrapper className="MenuBar">
       <CSSReset />
       {isMobile ? (
         <MobileNavbar.Wrapper>
@@ -138,7 +142,7 @@ const Menu = () => {
           </MobileNavbar.Items>
         </MobileNavbar.Wrapper>
       ) : (
-        <Navbar.Wrapper>
+        <Navbar.Wrapper className="MenuBar">
           <Navbar.Logo>Anita Park</Navbar.Logo>
           <Navbar.Items>
             <Navbar.Item>
