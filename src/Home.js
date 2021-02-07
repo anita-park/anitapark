@@ -1,18 +1,16 @@
+import pic from "./profile.jpg"
 const HomePage = () => {
   return (
     <div className="HomePage">
-      <div className="HomeHeader">
-        <h2>
-          [Home]
-        </h2>
-        <br />
-      </div>
+      <h2 className="h2">Home</h2>
+      <br/>
+      <img src={pic} alt="Anita Park" className="Me"/>
       <h3>Hello there!</h3>
-      <br />
       <h4>I am Anita Park.</h4>
+
       <br />
       <p>
-        Welcome to my website, where you can find: <br /> <br />
+        Welcome to my website! Here you can find: <br /> <br />
         <div className="List">
           <ul>
             <li>
@@ -33,22 +31,13 @@ const HomePage = () => {
         Please explore around, and if you have any questions, or want to contact
         me, please feel free to do so, by using the contact form!
       </p>
-      <div className="GifHome">
-        <iframe
-          className="GifFrame"
-          src="https://giphy.com/embed/hpF9R9M1PHN5e5liSx"
-
-          frameBorder="0"
-          class="giphy-embed"
-          allowFullScreen
-          title="frame"
-        ></iframe>
-      </div>
-      <p>
-        <a href="https://giphy.com/gifs/fun-retro-acid-hpF9R9M1PHN5e5liSx">
-          via GIPHY
-        </a>
-      </p>
+      <br/>
+      <footer>
+        Anita Park 
+        <br/>
+        Copyright 2021 &copy;
+      </footer>
+      <br/>
     </div>
   );
 };
